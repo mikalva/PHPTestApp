@@ -8,10 +8,12 @@ class PagesController extends Controller
 {
     //
     public function index(){
-    	return view('pages.landing');
+    	$title = 'Welcome to PHP Test App';
+    	return view('pages.landing')->with('title', $title);
     }
 
     public function contact(){
-    	return view('pages.contact');
+    	$title = 'Contact me.';
+    	return view('pages.contact')->with('title', $title);
     }
 }
