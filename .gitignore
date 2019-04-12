@@ -14,5 +14,14 @@ yarn-error.log
 /.vagrant
 .phpunit.result.cache
 
+*.htaccess
+/app
+/bootstrap
+/config
+/database/*
+/resources
+/routes
+
+
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/

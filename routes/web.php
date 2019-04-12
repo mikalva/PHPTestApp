@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Return homepage view - landing page
+Route::get('/', 'PagesController@index');
+
+// The contact form page
+Route::get('/contact', 'PagesController@contact');
