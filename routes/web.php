@@ -16,3 +16,5 @@ Route::get('/', 'PagesController@index');
 
 // The contact form page
 Route::get('/contact', 'PagesController@contact');
+
+Route::resource('comments', 'CommentController');
